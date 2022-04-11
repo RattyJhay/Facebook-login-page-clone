@@ -1,0 +1,155 @@
+html {
+  font-family: "helvetica", arial, sansserif;
+  background-color: #f0f2f5;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  margin: 40px 20px;
+  padding: 20px 0;
+  position: relative;
+  width: 980px;
+  /* border: 2px solid red; */
+  /* justify-content: space-around; */
+}
+
+.about {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 0;
+  margin-top: -125px;
+  margin-left: -25px;
+  /* justify-content: flex-start; */
+}
+
+.about img {
+  flex: 1;
+  padding: 0;
+  width: 50%;
+}
+
+.message {
+  display: inline-block;
+  position: absolute;
+  top: 185px;
+  /* bottom: 125px; */
+  left: 8px;
+  font-size: 28px;
+  width: 500px;
+  margin-top: 40px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  /* position: relative; */
+}
+
+.login-forms {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 335px;
+  width: 390px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-top: 60px;
+  margin-bottom: 28px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px;
+  gap: 10px;
+}
+
+input {
+  height: 43px;
+  border: 1.5px solid rgb(179, 178, 178);
+  border-radius: 7px;
+  gap: 7px;
+}
+
+input::placeholder {
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.login-button {
+  margin-top: 5px;
+  margin-bottom: -21px;
+  padding: 13px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 0;
+  background-color: #3283ec;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #1877f2;
+}
+
+.forgot-password {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  color: #1877f2;
+}
+
+.forgot-password:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.new-account-button {
+  padding: 14px;
+  margin: 5px 89px;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: 0;
+  background-color: #35a81e;
+  color: white;
+}
+
+.new-account-button:hover {
+  cursor: pointer;
+  background-color: #2f991a;
+}
+
+hr {
+  width: 320px;
+  border: 0.01 white;
+  margin-bottom: 15px;
+}
+
+.page-message {
+  font-size: 14px;
+  text-align: center;
+  margin-left: -25px;
+}
+
+span {
+  font-weight: bold;
+}
+
+/* .create-page {
+  display: flex;
+  position: absolute;
+  bottom: 250px;
+  right: 130px;
+} */
